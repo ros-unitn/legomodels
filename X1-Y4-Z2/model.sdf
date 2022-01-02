@@ -1,0 +1,36 @@
+<?xml version='1.0'?>
+<sdf version="1.6">
+
+    <model name="X1-Y4-Z2">
+        <link name="link">
+            <inertial>
+                <mass>0.0025</mass>
+                <inertia>
+                    <ixx>4.428223759415846e-06</ixx>
+                    <ixy>0</ixy>
+                    <ixz>0</ixz>
+                    <iyy>1.010754029783736e-06</iyy>
+                    <iyz>0</iyz>
+                    <izz>4.083047301204128e-06</izz>
+                </inertia>
+            </inertial>
+
+            <collision name="collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://blocks.model/X1-Y4-Z2/meshes/X1-Y4-Z2.stl</uri>
+                    </mesh>
+                </geometry>
+            </collision>
+
+            <visual name="visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://blocks.model/X1-Y4-Z2/meshes/X1-Y4-Z2.stl</uri>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+
+</sdf>

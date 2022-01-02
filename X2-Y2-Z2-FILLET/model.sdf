@@ -1,0 +1,36 @@
+<?xml version='1.0'?>
+<sdf version="1.6">
+
+    <model name="X2-Y2-Z2-FILLET">
+        <link name="link">
+            <inertial>
+                <mass>0.0025</mass>
+                <inertia>
+                    <ixx>1.610104679683035e-06</ixx>
+                    <ixy>0</ixy>
+                    <ixz>0</ixz>
+                    <iyy>1.693993314003009e-06</iyy>
+                    <iyz>0</iyz>
+                    <izz>2.1220155724543547e-06</izz>
+                </inertia>
+            </inertial>
+
+            <collision name="collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://blocks.model/X2-Y2-Z2-FILLET/meshes/X2-Y2-Z2-FILLET.stl</uri>
+                    </mesh>
+                </geometry>
+            </collision>
+
+            <visual name="visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://blocks.model/X2-Y2-Z2-FILLET/meshes/X2-Y2-Z2-FILLET.stl</uri>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+
+</sdf>
