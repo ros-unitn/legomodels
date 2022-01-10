@@ -4,6 +4,7 @@
     <model name="X1-Y2-Z2-CHAMFER">
         <link name="link">
             <inertial>
+                <pose>0 0 0.0189 0 0 0</pose>
                 <mass>0.0025</mass>
                 <inertia>
                     <ixx>1.5055660427269939e-06</ixx>

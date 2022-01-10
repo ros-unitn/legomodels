@@ -4,6 +4,7 @@
     <model name="X1-Y1-Z2">
         <link name="link">
             <inertial>
+                <pose>0 0 0.0189 0 0 0</pose>
                 <mass>0.0025</mass>
                 <inertia>
                     <ixx>9.7386845381374e-07</ixx>

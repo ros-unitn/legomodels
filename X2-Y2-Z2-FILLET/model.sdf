@@ -4,6 +4,7 @@
     <model name="X2-Y2-Z2-FILLET">
         <link name="link">
             <inertial>
+                <pose>0 0 0.0189 0 0 0</pose>
                 <mass>0.0025</mass>
                 <inertia>
                     <ixx>1.610104679683035e-06</ixx>

@@ -4,6 +4,7 @@
     <model name="X1-Y3-Z2-FILLET">
         <link name="link">
             <inertial>
+                <pose>0 0 0.0189 0 0 0</pose>
                 <mass>0.0025</mass>
                 <inertia>
                     <ixx>2.5854338458240315e-06</ixx>

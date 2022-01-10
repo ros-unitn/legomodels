@@ -4,6 +4,7 @@
     <model name="X1-Y2-Z2-TWINFILLET">
         <link name="link">
             <inertial>
+                <pose>0 0 0.0189 0 0 0</pose>
                 <mass>0.0025</mass>
                 <inertia>
                     <ixx>1.5577372481104624e-06</ixx>
