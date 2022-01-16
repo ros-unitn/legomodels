@@ -17,6 +17,12 @@
             </inertial>
 
             <collision name="collision">
+                <!--<pose>0 0 0.019</pose>
+                <geometry>
+                    <box>
+                        <size>0.065 0.065 0.0375</size>
+                    </box>
+                </geometry>-->
                 <geometry>
                     <mesh>
                         <uri>model://blocks.model/X2-Y2-Z2/meshes/X2-Y2-Z2.stl</uri>
